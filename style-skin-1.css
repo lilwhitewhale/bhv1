@@ -1,0 +1,190 @@
+/*
+	Skin Name: Skin 1
+*/
+@import url("../parallelus-salutation/style-skin-1.css");
+
+body{
+	color:#666666;
+	line-height:20px;
+	font-size:13px;
+	position:relative;
+}
+
+#Wrapper{
+	border-top:0px;
+}
+
+a, a:link, a:visited, #content .activity-header-info .activity-action a.view, #content .activity-header-info .activity-action a.delete-activity{
+	color:#5B9F97;
+}
+
+.posts-list .entry-title a:hover, .comment-header .poster-name a:hover, .item-container .item-title a:hover, #content .item-list .item-title a:hover, #content .forum .item-title a:hover, #content .item-list .item-container .poster-name a:hover, #content .item-list .item-content-container .poster-name a:hover, #content #item-header-content .entry-title a:hover, #content ul.activity-list .activity-comments .acomment-meta > a:first-child:hover{
+	color:#666;
+}
+
+.btn, a.btn:link, a.btn:visited, #content div#subnav.item-list-tabs, #content div.messages-options-nav, #content div#subnav.item-list-tabs ul li a, #content div.messages-options-nav a, body div#wp-admin-bar .padder, body #wp-admin-bar ul li a, body #admin-bar-logo, body div#wpadminbar, body div#wpadminbar .ab-top-secondary, body div#wp-admin-bar .padder, body div#wpadminbar .ab-top-secondary, body #wpadminbar .quicklinks > ul > li > a, body #wpadminbar .quicklinks > ul > li > a .ab-label, body #wpadminbar .quicklinks > ul > li > .ab-empty-item{
+	font-family:'Open Sans', Verdana, Arial, sans serif;
+	letter-spacing:.5px;
+	font-weight:normal;
+}
+
+body.logged-in .btn, body.logged-in a.btn:link, body.logged-in a.btn:visited, body.logged-in .btn:hover, body.logged-in a.btn:hover{
+	background: #FF5F57;
+}
+
+.btn, a.btn:link, a.btn:visited, .btn:hover, a.btn:hover{
+	background: #7cd1c1;
+	border:0px;
+	color:#FFFFFF;
+	border-radius:4px;
+	padding: 5px 20px;
+	font-size:12px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+
+#Top, #headerWrapper{
+	background:transparent !important;
+}
+
+.rgba #TopPanel .topPanelSection{
+	display:block !important;
+	padding:10px 0px 0px;
+}
+
+#TopPanel ul.section-tabs{
+	display:none;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab.primary-tab{
+	background-color:#47bd8d;
+}
+
+#TopPanel .topPanelSection, #TopPanel .topPanelSection.primary-tab{
+	background-color:#9adbd3;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab{
+	background-color:#47bd8d;
+	padding: 8px 15px;
+	font-family:'Open Sans', Verdana, Arial, sans serif;
+	font-weight:normal;
+	letter-spacing:.5px;
+	text-transform:uppercase;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab:hover{
+	color:#FFFFFF;
+}
+
+.rgba textarea, .rgba input[type="text"], .rgba input[type="password"], .rgba input[type="file"], .rgba #content div.padder form textarea, .rgba .field_type_captcha img{
+	background-color:#FFFFFF;
+	box-shadow:none;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, .textInput:focus, .textInput.inputFocus, #content div.padder form textarea:focus{
+	
+}
+
+.slideShowPager a, body .tp-bullets.simplebullets.round .bullet{
+	border-bottom-color: #79d7b1;
+}
+
+.slideShowPager a.activeSlide, body .tp-bullets.simplebullets.round .bullet.selected, .slideShowPager a, body .tp-bullets.simplebullets.round .bullet:hover{
+	border-bottom-color: #299b69;
+}
+
+
+
+#Middle .theContent .inner-1{
+	background-color:#FFF;
+	padding: 0px;
+	margin:0px;
+}
+
+body, #Top #PageTop .inner-1{
+	background-color:#FFF;
+	border-radius:0px;
+	box-shadow:none;
+}
+
+#MainMenu .slideMenu > ul > li.bp-menu > a:link, #MainMenu .slideMenu > ul > li.bp-menu > a:visited{
+	color:#46BA8B;
+	text-shadow: 0 0 #34a778;
+}
+
+#Bottom footer a, #Bottom footer a:hover{
+	color:#666 !important;
+}
+
+/* Register Page */
+#content #basic-details-section, #content #profile-details-section{
+	border:0px;
+}
+
+
+#content .create-form{
+	padding:20px 30px 30px;
+}
+
+#content .register-section{
+	margin:0px 0px 30px;	
+	border-color:#b6e1db;
+	padding:25px 35px 30px;
+}
+
+#content #register-page h2{
+	font-size:28px;
+	margin-bottom:1em;
+}
+
+#content .register-section h4{
+	font-size:20px;
+}
+
+#content form#send_message_form .submit{
+	text-align:left;
+}
+
+#content .standard-form .submit{
+	text-align:left;
+	margin:2em 0px 1em;
+}
+
+#register-page .reg-blurb{
+	display:none;
+}
+
+#content #bbpress-forums .entry-content{
+	margin-top:0px;
+}
+
+#content #bbpress-forums .bbp-pagination{
+	margin-bottom:0px;
+}
+
+body #content #bbpress-forums table.bbp-topics .bbp-topic-meta-content{
+	display:none;
+}
+
+
+/* Profile Page */
+#content .profile table.profile-fields p a{
+	color:#40a87e;
+}
+
+
+/* NAV BAR */
+#MainMenu .slideMenu > ul > li > a:link, #MainMenu .slideMenu > ul > li > a:visited{
+	color:#444;
+	text-shadow: 0 0 #ccc;
+}
+
+#MainMenu .slideMenu ul li a:hover, body #wp-admin-bar ul li ul li a:hover, body #wp-admin-bar ul li ul li:hover ul li a:hover{
+	color:#46a880;
+}
+
+
+#content div.item-list-tabs#subnav{
+	background:none !important;
+}

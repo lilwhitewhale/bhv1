@@ -1,0 +1,1692 @@
+@import url("../parallelus-salutation/style-default.css");
+
+
+/******** STRUCTURE ********/
+
+#Top header{
+	padding:0px;
+}
+
+.pageWrapper{
+	width:1000px;	
+}
+
+.col-2-3{
+	width: 65.6%;
+	margin-right: 5.3%;
+}
+
+.col-1-3{
+	width: 29%;
+}
+
+#Middle .theContent{
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.contentMargin, #Middle .contentMargin{
+	margin: 0px;
+}
+
+
+/******** HEADER ********/
+
+#blue-top{
+	background-color:#9adbd3;
+	width:100%;
+	padding:8px 0px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#blue-top #blue-top-container{
+	width:1000px;
+	text-align:right;
+	margin:0 auto;
+}
+
+#blue-top #blue-top-container p{
+	display:inline;
+	margin-left:20px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-family:'Open sans', Arial, Verdana, sans serif;
+	font-size:11px;
+	position:relative;
+	z-index:50;
+}
+
+#blue-top #blue-top-container p.sign-in{
+	background:url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/icon-sign-in.gif') no-repeat 0px 2px;
+	padding-left:28px;
+	cursor:pointer;
+}
+
+#blue-top #blue-top-container p.reg{
+	background:url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/icon-register.gif') no-repeat;
+	padding-left:18px;
+}
+
+#blue-top #blue-top-container p a{
+	color:#FFFFFF;
+}
+
+#blue-top #blue-top-container p a.hello{
+	border-bottom:1px solid #FFFFFF;
+}
+
+#blue-top #sign-in-box{
+	display:none;
+	padding-top:8px;
+}
+
+#blue-top form.standard-form{
+	width:auto;
+	float:right;
+}
+
+#blue-top form.standard-form label{
+	float:left;
+	margin-top:0px;
+	margin-left:12px;
+}
+
+#blue-top form.standard-form label span{
+	display:none;
+}
+
+#blue-top form.standard-form .btn{
+	float:left;
+	padding: 5px 20px;
+	font-size:12px;
+	margin-left:12px;
+	background-color:#FF5F57;
+}
+
+#blue-top form.standard-form p.forgetmenot{
+	display:block !important;
+	clear:both;
+}
+
+#blue-top form.standard-form p.forgetmenot label{
+	margin-left:0px;
+	font-size:10.5px;
+	margin-bottom:0px;
+}
+
+#blue-top form.standard-form p.forgetmenot label input{
+	margin: 0px 5px 3px -8px;
+}
+
+/* Top Panel */
+
+#TopPanel{
+	position:relative;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab.active{
+	background-color:#79d7b1 !important;
+}
+
+#TopPanel .topPanelSection{
+	border-bottom:0px;
+	box-shadow:none;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab.active{
+	border-bottom:0px;
+	padding: 8px 15px 9px;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab.sign-in-icon.active{
+	padding: 8px 15px 9px 26px;
+	background-position: 11px 7px;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab.sign-in-icon{
+	padding-left: 26px;
+	background-position: 11px 7px;
+}
+
+#TopPanel ul.section-tabs li a.sectionTab{
+	border-radius: 0 0 5px 5px;
+}
+
+#TopPanel .topPanelContent{
+	padding: 0px;
+}
+
+#TopPanel ul.section-tabs li{
+	margin: 0 0 0 8px;
+	font-size:12px;
+}
+
+#TopPanel .publicContactForm .formTitle, .publicForm .formTitle{
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:normal;
+}
+
+#TopPanel .staticContent p{
+	display:inline-block;
+	padding:10px;
+	margin:0px;
+	font-size:11.5px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+#TopPanel .staticContent p a{
+	text-shadow: 0px 0px #ffffff;
+}
+
+#TopPanel .last{
+	text-align:right;
+}
+
+#TopPanel .formTitle{
+	display:none;
+}
+
+/* Logo */
+
+.logo_sec{
+	width:380px;
+	margin:0 auto;
+	padding:0px 30px;
+}
+
+#Logo a{
+	margin:0px !important;
+}
+
+#Logo{
+	float:none;
+	margin:0px;
+	clear:none;
+	text-align:center;
+}
+
+#Logo img{
+	float:none;
+	/*margin-top:-32px;*/
+	position:relative;
+	width:331px;
+	height:auto;
+}
+
+/* Nav */
+
+#Top header #MainHeader{
+	position: relative;
+	padding-bottom:22px;
+}
+
+#leftmenu{
+	left:0px;
+	bottom:22px;
+	text-align:right;
+}
+
+#leftmenu ul{
+	margin:0px 30px 0px 0px;
+}
+
+#rightmenu{
+	float:right;
+	right:0px;
+	bottom:22px;
+	text-align:left;
+}
+
+#rightmenu ul{
+	margin:0px 0px 0px 30px;
+}
+
+.mainmenu{
+	width:275px;
+	position:absolute;
+}
+
+.mainmenu ul{
+	margin:0px;
+}
+
+.mainmenu ul li{
+	list-style-type:none;
+	margin:15px 0px;
+}
+
+.mainmenu ul li a{
+	font-family: 'Open Sans', Verdana, Arial, sans serif;
+	font-size:13px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:300;
+	color:#444;
+	text-shadow: 0px 0px #444;
+}
+
+.mainmenu ul li a:hover{
+	
+}
+
+#MainMenu{
+	float:none;
+	clear:both;
+	margin: 0px 0px;
+}
+
+#MainMenu .slideMenu{
+	text-align:center;
+}
+
+#MainMenu .slideMenu ul{
+	display:inline-block;
+}
+
+#MainMenu .slideMenu ul li a{
+	padding: 12px 24px;
+}
+
+#MainMenu .slideMenu ul li a:hover{
+	box-shadow:none;
+	color:#000;
+}
+
+#MainMenu .slideMenu > ul > li > a:link{
+	font-family: 'Open Sans', Verdana, Arial, sans serif;
+	font-size:13px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:300;
+	color:#444;
+}
+
+
+
+
+/******** LOGIN PAGES ********/
+
+/* LOGIN */
+
+#admin-pages_c1 #content, .registration #content{
+	background: url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/blue-stripe-bg2.gif');
+	padding:50px 30px;
+	text-align:center;
+}
+
+#admin-pages_c1 #container #content div.bbp-submit-wrapper{
+	float:none;
+	text-align:center;
+	margin: 1em 0px 0px;
+}
+
+#admin-pages_c1 #container #content div.bbp-submit-wrapper input{
+	margin-bottom:0px;
+	background-color:#FF5F57;
+}
+
+#content .bbp-login-form fieldset.bbp-form label, #container .bbp-login-form fieldset.bbp-form label, #wrapper .bbp-login-form fieldset.bbp-form label{
+	width: 100px;
+	font-weight:normal;
+}
+
+.bbp-login-form .bbp-remember-me, .bbp-login-form .bbp-username, .bbp-login-form .bbp-password{
+	text-align:left;
+}
+
+.bbp-remember-me label{
+	width:auto !important;
+}
+
+.bbp-login{
+	background-color:#fff;
+	padding:30px;
+	text-align:center;
+	display:inline-block;
+	border-bottom: 1px solid #9ADBD3;
+}
+
+/* ACTIVATION PAGE */
+
+.messageBox, #content .padder #message{
+	margin:0 0 40px;
+	background-color:#ffe3da;
+	box-shadow:none;
+	color: #666;
+}
+
+#activate-page h2.widgettitle{
+	font-size:28px;
+	margin-bottom: 0.5em;
+}
+
+/* REGISTER PAGE */
+
+body.register #PageTop .staticBlockWrapper{
+	display:none;
+}
+
+body.register .padder{
+	padding:30px;
+}
+
+#register-page{
+	padding: 30px 0px;
+	background-color:#fff;
+	display:inline-block;
+}
+
+#register-page p.post_reg_msg{
+	text-align:left;
+	padding:0px 100px;
+}
+
+form#signup_form .regfield{
+	width:100%;
+	text-align:left;
+}
+
+form#signup_form .regfield label{
+	display:inline-block;
+	width:150px;
+}
+
+
+/* LOST PASSWORD */
+
+#MainMenu .slideMenu > ul > li > a:link, #MainMenu .slideMenu > ul > li > a:visited{
+	color:#444 !important;
+}
+
+body.page-template-page-user-lost-pass-php .bbp-breadcrumb{
+	display:none;
+}
+
+#Middle .staticBlockWrapper{
+	background-color:#FFFFFF !important;
+}
+
+
+
+
+/******** HOMEPAGE ********/
+
+.home-page #Middle .contentMargin{
+	margin:0px !important;
+}
+
+/* FEAT GALLERY */
+.fullwidthbanner-container .fullwidthabanner{
+	margin-bottom:35px;
+}
+
+.tp-bullets.simplebullets.round .bullet{
+	margin: 0 8px;
+	width:35px;
+	border-bottom-width:4px;
+}
+
+/* Join bar */
+.home-page #join-bar{
+	margin:0px 0px 40px;
+	padding:0px;
+	text-align:center;
+}
+
+.home-page #join-bar img{
+	margin:0 auto;
+}
+
+/* FORUM HIGHLIGHTS */
+
+#forums-hp{
+	margin-bottom:40px;
+}
+
+#forums-hp .the-post-image img{
+	width:auto;
+	float:none;
+}
+
+#forums-hp #bbp_topics_widget-3 ul, #forums-hp #bbp_topics_widget-4 ul{
+	margin-left:0px;
+	margin-bottom:0px;
+}
+
+#forums-hp #bbp_topics_widget-3 ul li, #forums-hp #bbp_topics_widget-4 ul li{
+	line-height:24px;
+	clear:both;
+	font-size:13.5px;
+	margin-bottom:15px;
+}
+
+#forums-hp #bbp_topics_widget-3 ul li:last-child, #forums-hp #bbp_topics_widget-4 ul li:last-child{
+	margin-bottom:0px;
+}
+
+#forums-hp #bbp_topics_widget-3 ul li .topic-author, #forums-hp #bbp_topics_widget-4 ul li .topic-author{
+	float:left;
+}
+
+#forums-hp #bbp_topics_widget-3 ul li .topic-author .avatar, #forums-hp #bbp_topics_widget-4 ul li .topic-author .avatar{
+	width:50px;
+	height:50px;
+	border:1px solid #dfdfdf;
+}
+
+#forums-hp h4.widgetTitle, #blog-posts-hp h4.widgetTitle{
+	text-align:center;
+	font-size:24px;
+	text-transform:uppercase;
+	border-bottom:0px;
+	margin-bottom:22px;
+	font-weight:normal;
+	color:#666;
+}
+
+#forums-hp .widget{
+	padding:30px 35px 10px;
+}
+
+#blog-posts-hp .col-2-3{
+	width: 65.6%;
+	margin-right: 3%;
+}
+
+#blog-posts-hp .col-1-3{
+	width: 31.3%;
+}
+
+#blog-posts-hp .content-post-list .hentry .entry-header{
+	margin-bottom:8px;
+}
+
+#blog-posts-hp ol.posts-list li.post-item{
+	margin:0px;
+}
+
+#blog-posts-hp .content-post-list .read-more{
+	margin: 5px 0 0;
+}
+
+#blog-posts-hp .content-post-list .entry-title a{
+	color:#299e90;
+}
+
+#forums-hp #bbp_topics_widget-3, #forums-hp #bbp_topics_widget-4{
+	margin-bottom:0px;
+	background-color:#f3f3f3;
+	border-radius:30px 30px 0px 0px;
+}
+
+#forums-hp #text-5, #forums-hp #text-6{
+	padding: 10px 0px;
+}
+
+#forums-hp #text-5 p, #forums-hp #text-6 p{
+	margin-bottom:0px;
+	text-align:right;
+}
+
+#forums-hp .content-post-list .entry-title{
+	font-size:24px;
+}
+
+#forums-hp .col-1-2{
+	position:relative;
+}
+
+#forums-hp .col-1-2 p{
+	background-color:#f3f3f3;
+	padding:0px 35px 30px 0px;
+	border-radius:0px 0px 30px 30px;
+	margin:0px;
+}
+
+#forums-hp .col-1-2 .tail{
+	background:url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/forum-hp-tail.png') top left no-repeat;
+	width:77px;
+	height:49px;
+	float:right;
+	margin-right:65px;
+}
+
+#forums-hp .last .tail{
+	margin-left:65px;
+	float:left;
+	background-position:bottom left;
+}
+
+/* BLOG POSTS */
+ 
+#blog-posts-hp ol.posts-list .item-container .the-post-content{
+	margin-bottom:22px;
+	border-bottom:1px solid #e0e0e0;
+	padding:0px 0px 18px;;
+}
+
+#blog-posts-hp ol.posts-list .item-container{
+	box-shadow:none;
+}
+
+#blog-posts-hp ol.posts-list{
+	margin-left: 1em;
+}
+
+#blog-posts-hp ol.posts-list li.post-item h2.entry-title{
+	font-size:20px;
+	line-height:1.2em;
+}
+
+#blog-posts-hp #bottom-hp{
+	padding:0px 0px 30px;
+	text-align:center;
+}
+
+#blog-posts-hp #bottom-hp .gingham img{
+	padding:0px 25px 0px 0px;
+}
+
+#blog-posts-hp #bottom-hp #map-area{
+	background:url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/blue-stripe-bg.gif');
+	margin-top:25px;
+	position:relative;
+}
+
+#blog-posts-hp #bottom-hp #map-area .map-button{
+	background-color:#f7c31c;
+	position:absolute;
+	top:150px;
+	right:50px;
+	width:130px;
+	height:130px;
+	border-radius:50%;
+	display:table;
+}
+
+#blog-posts-hp #bottom-hp #map-area .map-button a{
+	display:table-cell;
+	vertical-align:middle;
+	color:#FFFFFF;
+	font-family:'Open Sans Condensed', 'Open Sans', Arial, Verdana, sans serif;
+	letter-spacing:1px;
+	font-size:18px;
+	font-size:22px;
+	line-height:26px;
+	padding:0px 20px;
+	text-transform:uppercase;
+}
+
+#blog-posts-hp #bottom-hp img.map-img{
+	margin:30px 0px 22px;
+}
+
+
+
+/******** FOOTER ********/
+
+#Bottom{
+	width:100%;
+	background-color:#f3f3f3;
+	margin-top:50px;
+	overflow:visible;
+}
+
+#Bottom #footer-sec{
+	padding: 0px;
+	text-align:center;
+	background-color:#f3f3f3;
+}
+
+#Bottom .footer-container{
+	width:1000px;
+	margin:0 auto;
+}
+
+#Bottom .col-2-3{
+	text-align:left;
+}
+
+#Bottom .theContent > .inner-1{
+	margin:0px;
+	padding:0px;
+}
+
+#Bottom .staticBlockWrapper{
+	padding:0px;
+}
+
+#Bottom .staticBlockWrapper .staticContent{
+	margin:0px;
+}
+
+#Bottom .theContent{
+	box-shadow: none;
+	color:#666;
+}
+
+#Bottom .social-bottom, #Bottom div.sitemap{
+	padding:35px 0px 15px;
+}
+
+#Bottom .sitemap p{
+	text-align:left;
+	color:#666;
+}
+
+#Bottom .social-bottom ul li{
+	float:right;
+	padding:0px 0px 0px 20px;
+	list-style-type:none;
+}
+
+#Bottom .social-bottom ul li a{
+	font-family: 'Homemade Apple', cursive;
+	font-size:14px;
+	text-shadow: 0px 0px #999;
+}
+
+#Bottom .theContent .copy{
+	margin-bottom:0px;
+}
+
+#Bottom .col-1-3{
+	text-align:right;
+	position:relative;
+}
+
+#Bottom img.say-hello{
+	position:absolute;
+	top:-10px;
+	left:0px;
+	z-index:50;
+	width:75px;
+	display:none;
+}
+
+#Bottom p.sitemap a {
+	font-size:12px;
+	padding-right:12px;
+}
+
+
+
+/******** FORUMS ********/
+
+body #content #bbpress-forums p.bbp-topic-meta a{
+	font-weight:normal;
+	color:#909090;
+}
+
+.bbp-forum-content .bbp-pagination-links a, .bbp-forum-content .bbp-pagination-links span.current{
+	width:20px;
+	height:20px;
+	padding:3px;
+	text-align:center;
+	border-radius:50%;
+	border-color:#e0e0e0;
+}
+
+div.bbp-template-notice.info{
+	display:none;
+}
+
+.bbp-forum-content div.bbp-template-notice{
+	background-color:#FFE3DA;
+	border:0px;
+	border-radius:0px;
+	padding:12px 24px;
+	text-align:center;
+	margin:0px;
+}
+
+.bbp-forum-content div.bbp-template-notice p{
+	font-size:13px;
+	padding:0px;
+	margin:0px;
+	color:#666;
+	font-weight:bold;
+}
+
+body.forum .bbp-breadcrumb{
+	display:none;
+}
+
+body.forum .bbp-pagination-count{
+	display:none;
+}
+
+#content p.bbp-topic-meta span{
+	color:#909090;
+}
+
+#container #content .bbp-forum-content p.bbp-topic-meta a{
+	color: #909090;
+	font-weight:normal;
+}
+
+#container #content .bbp-topic-meta-latest .bbp-topic-freshness{
+	font-size:11px;
+	font-style:italic;
+}
+
+#container #content .bbp-topic-meta-latest .bbp-topic-freshness a, #container #content .bbp-topic-meta-latest .bbp-topic-freshness a:hover{
+	text-decoration:none;
+	color: #909090;
+}
+
+.bbp-forum-content .bbp-forum-info h4.item-title, #container #content .bbp-topic-info h4.item-title{
+	margin-top:0px;
+	font-size:13px;
+	font-family: Arial, Verdana, sans serif !important;
+	clear:none;
+}
+
+.bbp-forum-content .bbp-forum-info h4.item-title a, #container #content .bbp-topic-info h4.item-title a{
+	color:#5B9F97;
+}
+
+.bbp-forum-content .bbp-topic-meta-counts .bbp-topic-reply-label{
+	color:#666;
+	font-size:14px;
+}
+
+.bbp-forum-content .bbp-topic-meta-content{
+	font:inherit;
+}
+
+.bbp-forum-content .bbp-topic-meta-content a{
+	text-decoration:none;
+}
+
+#container #content table.bbp-forums tbody tr:first-child td, #container #content table.bbp-topics tbody tr:first-child td{
+	border:0px;
+}
+
+#container #content table.bbp-forums .bbp-forum-meta-content, #container #content table.bbp-topics .bbp-topic-meta-content{
+	font-family: Arial, Verdana, sans serif;
+	font-style:normal;
+}
+
+.bbp-forum-content .forum-list-container, .bbp-forum-content .topics-list-container{
+	box-shadow:none;
+	margin-top:0px;
+	margin-bottom:12px;
+}
+
+#container #content table.bbp-forums tbody tr td, #container #content table.bbp-topics tbody tr td{
+	padding: 15px 0px;
+	border-color:#e0e0e0;
+}
+
+.bbp-forum-content table.bbp-forums tbody tr td:lastchild, .bbp-forum-content table.bbp-topics tbody tr td:lastchild{
+	padding-bottom:0px;
+}
+
+/* NEW TOPIC FORM */
+
+.bbp-topic-form{
+	padding-top:0px;
+}
+
+.bbp-topic-form h5{
+	font-size:24px;
+}
+
+#bbpress-forums fieldset.bbp-form label{
+	width:100%;
+	margin:10px 0px 5px;
+}
+
+#content fieldset.bbp-form label, #container fieldset.bbp-form label, #wrapper fieldset.bbp-form label{
+	margin-bottom:5px;
+}
+
+#container #content #new-post{
+	padding-top:1em;
+	border:0px;
+}
+
+#content fieldset.bbp-form input{
+	margin-bottom:10px;
+}
+
+#container #content #new-post h5{
+	border-top: 1px solid #e0e0e0;
+	padding-top: 1.2em;
+	font-size:24px;
+	margin-bottom:1em;
+}
+
+body.bbpress p.form-allowed-tags{
+	width:100%;
+}
+
+body.bbpress p.form-allowed-tags code{
+	width:auto;
+	padding: 15px 20px;
+	border:0px;
+	background-color:#f0f0f0;
+}
+
+/* SINGLE FORUM PAGE */
+
+body.single-topic #container #content #new-post h5{
+	border:0px;
+	padding-top:0px;
+}
+
+body.single-topic #container #content #new-post{
+	padding-top:0px;
+}
+
+body.single-topic #content #bbpress-forums div.bbp-template-notice{
+	display:none;
+}
+
+.reply-post-title{
+	padding:0px;
+	float:left;
+}
+
+.reply-post-title h4.poster-name a{
+	color: #5B9F97
+}
+
+body #content #bbpress-forums .bbp-pagination-count{
+	display:none;
+}
+
+.bbp-replies .item-actions{
+	line-height:14px;
+}
+
+table.bbp-replies thead{
+	display:none;
+}
+
+body #content #bbpress-forums{
+	margin-top:10px;
+}
+
+div.bbp-breadcrumb, div.bbp-topic-tags{
+	margin-bottom:25px;
+}
+
+body #content #bbpress-forums div.bbp-reply-content p{
+	font-size:14px;
+	line-height:1.8em;
+}
+
+.bbp-replies .item-container .item-content{
+	padding: 0px 0px 22px;
+	border-bottom:1px solid #e0e0e0;
+}
+
+.item-container .comment-header{
+	margin-bottom:2px !important;
+}
+
+body #content #bbpress-forums div.bbp-reply-author img.avatar{
+	width:64px;
+	height:64px;
+}
+
+.item-content-container .post-content{
+	padding: 0px 0px 0px 80px;
+	margin:0px;
+}
+
+body #content #bbpress-forums .item-container{
+	margin-bottom:18px;
+	padding:0px 15px;
+	box-shadow:none;
+}
+
+body #content #bbpress-forums .item-container:last-child{
+	margin-bottom:0px;
+}
+
+body #content #bbpress-forums footer.item-footer .bbp-admin-links a{
+	color:#5B9F97;
+}
+
+#content table.bbp-replies{
+	margin-bottom:0px;
+}
+
+#content .item-list-tabs#subnav li#replies-personal-li, #content .item-list-tabs#subnav li#subscriptions-personal-li{
+	display:none;
+}
+
+
+
+/******** BUDDYPRESS SIDEBAR ********/
+
+#Middle .staticBlockWrapper .sign-up-button{
+	border:2px solid #9adbd3;
+	padding:20px;
+	margin-bottom:35px;
+	text-align:center;
+}
+
+#Middle .staticBlockWrapper .sign-up-button h3{
+	margin-bottom:10px;
+}
+
+#Middle .staticBlockWrapper .sign-up-button .sign-up{
+	background-color:#ff5f57;
+	padding:7px 0px;
+	margin-bottom:0px;
+	display:inline-block;
+	font-size:13px;
+	width:100%;
+	border-radius:4px;
+	color:#FFFFFF;
+}
+
+#bbp_search_widget-2 #bbp_search_submit, #search-3 #searchsubmit{
+	float:right;
+	padding: 6px 15px;
+	margin:0px;
+}
+
+#bbp_search_widget-2 form, #search-3 form{
+	background-color:#efefef;
+	padding:20px 15px;
+}
+
+#bbp_search_widget-2 h4.widgetTitle, #search-3 h4.widgetTitle{
+	margin-bottom:18px;
+}
+
+#bbp_search_widget-2 form #bbp_search, #search-3 form #s{
+	width:140px;
+	border-color:#e0e0e0;
+}
+
+.widget ul li{
+	clear:both;
+	margin-bottom:15px;
+	line-height:1.5em;
+}
+
+.widget ul li .bbp-author-name{
+	display:none;
+}
+
+.widget ul li .bbp-forum-title{
+	line-height:18px;
+}
+
+.widget ul li .avatar{
+	margin-right:15px;
+}
+
+.clearfix .widget{
+	margin-bottom:35px;
+}
+
+.widget ul.item-list li, #Middle .widget ul.item-list li{
+	padding: 10px 0px;
+	margin-bottom:0px;
+	box-shadow:none;
+}
+
+.widget ul li .topic-author{
+	float:left;
+}
+
+.widget ul.item-list li:hover, #Middle .widget ul.item-list li:hover{
+	background-color:#FFFFFF;
+	color:#666 !important;
+}
+
+
+
+
+/******** PROFILE PAGES ********/
+
+#content .profile .bp-widget{
+	padding:0px;
+}
+
+#content .profile .bp-widget h4{
+	font-size:24px;
+	display:none;
+}
+
+form#profile-edit-form h4, .profile .field-visibility-settings-toggle, .profile .field-visibility-settings-notoggle{
+	display:none;
+}
+ 
+form#profile-edit-form input[type="text"]{
+	width:40%;
+}
+
+form#profile-edit-form p.description{
+	margin-bottom:2em;
+}
+
+form#profile-edit-form textarea{
+	width:80%;
+}
+
+#content .profile table.profile-fields, #item-body .messages, #item-body .profile{
+	margin-top:35px;
+	padding:0px 15px;
+}
+
+#content .member-single-header .at-mention{
+	display:block;
+	line-height:30px;
+}
+
+table.profile-fields th, table.profile-fields td{
+	padding: 0px 10px 15px;
+	font-size:14px;
+	line-height:1.8em;
+}
+
+table.profile-fields td .cat{
+	padding-right:10px;
+}
+
+.profile .profile-fields .label{
+	padding-left:0px;
+	font-weight:normal;
+	font-size:14px;
+	line-height:1.5em;
+	width:150px;
+}
+
+.profile .profile-fields .label span{
+	background-color:#FFE3DA;
+	padding:5px 12px;
+	display:block;
+	text-align:right;
+}
+
+.profile label{
+	font-size:inherit;
+}
+
+.profile .button-nav{
+	display:none;
+}
+
+#content #item-nav{
+	margin-top:35px;
+}
+
+#content #item-nav .item-list-tabs ul{
+	border:0px;
+	background-color:#efefef;
+}
+
+#content #item-nav .item-list-tabs ul li a{
+	padding:8px 15px;
+}
+
+#content .messages .messages-options-nav{
+	background:#fff;
+	border:0px;
+	box-shadow:none;
+	padding:5px 0px;
+}
+
+#content #message-threads td{
+	padding: 15px 6px;
+}
+
+#content #message-threads td .btn{
+	background:#7CD1C1;
+	box-shadow:none;
+}
+
+#members-directory-form .item-list-tabs bp-content-tabs{
+	float:right;
+}
+
+#content div.item-list-tabs#subnav{
+	background: linear-gradient(#e0e0e0, #e0e0e0) !important;
+	border:0px;
+	box-shadow:none;
+	padding:0px;
+	margin:10px 0px 0px;
+}
+
+#content div.item-list-tabs#subnav ul li a:hover{
+	background:none !important;
+}
+
+table.profile-fields tr.field_would-you-like-to-be-added-to-the-public-blogger-directory{
+	display:none;
+}
+
+body.bp-user #content .entry-header{
+	margin-bottom:0px;
+	display:block;
+}
+
+body.bp-user #content .entry-header .entry-title{
+	margin-bottom:10px !important;
+	clear:none;
+}
+
+body.bp-user #content .entry-header p{
+	font-size:14px;
+	line-height:1.8em;
+}
+
+body.bp-user #content .entry-header .my-activity{
+	display:none;
+}
+
+.item-buttons .generic-button{
+	float:none;
+}
+
+#content .member-single-header .item-buttons{
+	text-align:center;
+	margin: 0px;
+}
+
+body.bp-user #content .entry-header .item-buttons .generic-button a{
+	padding:6px 15px;
+	border-radius:4px;
+	background-color:#FF5F57;
+}
+
+#item-body{
+	margin-top:0px;
+}
+
+#content #message-thread #MessageContainers .message-box{
+	box-shadow:none;
+}
+
+#content #message-thread .envelope-info{
+	border-top:0px;
+	background-color:#efefef;
+	padding: 3px 8px;
+}
+
+#content .standard-form .message-content .submit{
+	text-align:left;
+}
+
+form#send_message_form{
+	margin:0px 15px;
+}
+
+#bbpress-forums hr{
+	display:none;
+}
+
+body #content #bbpress-forums #favorite-toggle{
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+
+body #content #bbpress-forums table.bbp-topics tbody tr td{
+	padding: 18px 0px;
+}
+
+body #content #bbpress-forums .bbp-forum-info h4.item-title, body #content #bbpress-forums .bbp-topic-info h4.item-title{
+	line-height:1.3em;
+	font-family: Arial, Verdana, sans serif !important;
+	font-size:13px;
+}
+
+body #content #bbpress-forums .bbp-forum-info h4.item-title a, body #content #bbpress-forums .bbp-topic-info h4.item-title a{
+	color: #5B9F97;
+}
+
+body #content #bbpress-forums table.bbp-topics tbody tr td .avatar{
+	display:none;
+}
+
+#item-header-avatar img.avatar{
+	width:150px;
+	height:auto;
+	border-radius:50%;
+	display:block;
+	float:none;
+	margin:0px 0px 10px 0px;
+}
+
+#content .padder div.item-list-tabs li#members-order-select{
+	border:0px;
+}
+
+#content div.item-header{
+	margin-bottom:0px;
+}
+
+#content .padder div.item-list-tabs li{
+	margin-right:0px;
+	padding:0px;
+	text-align:left;
+}
+
+#content .padder div.item-list-tabs ul.sub-tabs li{
+	border:0px;
+}
+
+#item-body h2.entry-title{
+	display:none;
+}
+
+#content .padder div.item-list-tabs li a{
+	font-size:13px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color: #666;
+	padding:8px 0px;
+	font-family:'Open Sans', Arial, Verdana, sans serif;
+	
+	border:0px;
+	background:none;
+	box-shadow:none;
+	font-weight:normal;
+}
+
+div.item-header div#item-header-avatar{
+	margin:0px 25px 0px 0px;
+}
+
+div.item-header div#item-header-avatar p.uname{
+	text-align:center;
+	margin-bottom:12px;
+}
+
+#content .item-list-tabs#subnav ul{
+	background-color:transparent;
+}
+
+#content .padder div.item-list-tabs li.selected a{
+	color: #5B9F97;
+	font-weight:bold;
+}
+
+#content #item-body div.item-list-tabs#subnav ul.sub-tabs li a{
+	padding:0px 15px;
+}
+
+#content div.item-list-tabs#subnav ul.sub-tabs li a{
+	font-size:13px;
+	text-transform:capitalize;
+	letter-spacing:1px;
+	color:#666;
+	text-shadow:none;
+}
+
+#content div.item-list-tabs#subnav ul.sub-tabs li a:hover{
+	background:none;
+}
+
+#content #avatar-upload{
+	margin:40px 0px;
+	text-align:center;
+	padding:20px;
+	background-color:#efefef;
+}
+
+#item-body form#settings-form{
+	margin-top:35px;
+}
+
+#content #settings-form .submit{
+	text-align:left;
+	margin:0px;
+}
+
+#item-body form#settings-form label{
+	margin: 0px 0 10px 0;
+}
+ 
+#content #avatar-upload .btn{
+	background: #7CD1C1;
+}
+
+.profile h4{
+	font-size:22px;
+}
+
+#content #avatar-upload #file, #content #group-settings-form #file{
+	border:0px;
+	padding:4px;
+	margin-right:20px;
+}
+
+#content div.item-list-tabs#subnav ul li a, #content div.messages-options-nav a{
+	border:0px;
+}
+
+form.standard-form label, form.standard-form span.label{
+	margin: 22px 0 8px 0;
+}
+
+#content #settings-form #pass1{
+	margin: 0px 0px 1.2em;
+}
+
+form#account-delete-form{
+	margin-top:35px;
+}
+
+body #content #bbpress-forums p.bbp-topic-meta .bbp-topic-meta .bbp-topic-started-by, body #content #bbpress-forums p.bbp-topic-meta .bbp-topic-meta .bbp-topic-started-in{
+	display:none;
+}
+
+
+
+
+
+
+/******** MEMBER DIRECTORY ********/
+
+ul#members-list{
+	margin-top:0px;
+}
+
+#members-list .item-container .avatar{
+	width:140px;
+	height:140px;
+	border-radius:50%;
+	border:1px solid #e0e0e0;
+	margin-right:20px;
+}
+
+#members-list .item-container .profile-extend-meta h4{
+	font-size:22px;
+	line-height:1.2em;
+	margin: 0px 0px 5px;
+	clear:none;
+}
+
+#members-list .item-container .profile-extend-meta p{
+	margin-bottom:5px;
+	font-size:14px;
+}
+
+#members-list .item-container .profile-extend-meta .blog{
+	font-size:24px;
+	line-height:1.2em;
+}
+
+#members-list .item-container .profile-extend-meta .from{
+	padding:0px 2px;
+}
+
+#members-list .item-container .profile-extend-meta .name, #members-list .item-container .profile-extend-meta .city{
+	font-weight:bold;
+}
+
+#post-3791 h1{
+	display:none;
+}
+
+body.page-id-3791 #Top header #MainHeader{
+	padding-bottom:0px;
+}
+
+#vmap{
+	position:relative;
+}
+
+#vmap #map-directions{
+	position:absolute;
+	top:15px;
+	right:120px;
+	font-family: 'Open Sans Condensed', Verdana, Arial, sans serif;
+	font-size:22px;
+	line-height:26px;
+	letter-spacing:1px;
+	font-weight:300;
+	color:#666;
+	width:220px;
+}
+
+#state_blogs h3.stitle{
+	font-size:28px !important;
+}
+
+.profile-extend-meta p{
+	margin-bottom:2px;
+}
+
+body.members #content div.padder ul#members-list li.item-li{
+	width:48%;
+	float:left;
+	margin:0px;
+	border-bottom:1px solid #e0e0e0;
+}
+
+body.members #content div.padder ul#members-list li.odd{
+	float:right;
+}
+
+body.members #content div.padder ul#members-list li.item-li .item-container{
+	box-shadow:none;
+}
+
+body.members #content div.item-list-tabs#subnav{
+	background:none !important;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+body.members #content div.bp-content-tabs{
+	float:right;
+}
+
+body.members #content header.entry-header{
+	margin:20px 0px 0px;
+	text-align:right;
+	background: url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/blue-stripe-bg2.gif');
+	padding:8px 20px;
+}
+
+#content div.item-list-tabs{
+	margin-bottom:0px;
+}
+
+#content div.item-list-tabs#subnav ul li select{
+	padding: 6px 8px 5px;
+	margin: 0 0 0 5px;
+	border-color: #e0e0e0;
+}
+
+#content .dir-search input[name="s"], #content .dir-search #members_search{
+	margin: 0 6px;
+	padding: 6px 8px 5px;
+}
+
+
+
+/******** BLOG ********/
+
+ol.posts-list .item-container{
+	border-radius:0px;
+	box-shadow:none;
+}
+
+ol.posts-list .item-container .the-post-content{
+	padding: 0px;
+}
+
+ol.posts-list li.post-item h2.entry-title{
+	font-size:28px;
+}
+
+ol.posts-list li.post-item .post-header-info, ol.posts-list li.post-item .published{
+	font-family:Arial, Verdana, sans serif;
+	font-size:11px;
+	font-style:italic;
+	color:#909090;
+}
+
+.posts-list .entry-title a{
+	color:#5B9F97;
+}
+
+.post-header-info .cat-links a, .post-header-info .cat-links a:hover{
+	text-decoration:none;
+	color:#909090 !important;
+}
+
+.post-header-info .comments-link a{
+	background-position:0px 2px;
+	color:#909090;
+}
+
+.post-header-info .comments-link{
+	font-size:12px;
+}
+
+.item-container img.the-post-image, .item-container .the-post-image img, .messageBox .quoteImage img{
+	float:none;
+	display:block;
+	margin-bottom:22px;
+}
+
+.paginationWrap{
+	margin:0px;
+}
+
+.pag-in-ation{
+	box-shadow:none;
+	padding:0px;
+}
+
+.single-post #Top header #MainHeader{
+	margin-bottom:45px;
+}
+
+.single-post #Top #PageTop{
+	display:none;
+}
+
+
+
+
+/******** GENERAL ********/
+
+body {
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:'Open Sans Condensed', 'Open Sans', Verdana, Arial, sans serif !important;
+	text-transform:uppercase;
+	letter-spacing:1px; 
+	margin:0px;
+	padding:0px;
+	clear:both;
+	font-weight:normal;
+}
+
+h2.lookatme{
+	text-transform:uppercase;
+	background-color:#FFFFFF;
+	display:inline-block;
+	padding:2px 25px;
+	font-size:30px;
+}
+
+#content h1.entry-title{
+	font-size:28px;
+	line-height:1.2em;
+}
+
+.dotsleft{
+	background-image: linear-gradient(to bottom, #000 20%, rgba(255, 255, 255, 0) 0%);
+    background-position: right;
+    background-size: 1px 6px;
+    background-repeat: repeat-y;
+}
+
+.dotsright{
+	background-image: linear-gradient(to bottom, #000 20%, rgba(255, 255, 255, 0) 0%);
+    background-position: left;
+    background-size: 1px 6px;
+    background-repeat: repeat-y;
+}
+
+.dotsbottom{
+	background-image: linear-gradient(to right, #000 20%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 6px 1px;
+    background-repeat: repeat-x;
+}
+
+.dotstop{
+	background-image: linear-gradient(to right, #000 20%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 6px 1px;
+    background-repeat: repeat-x;
+}
+
+.content-post-list .entry-content{
+	font-size:14px;
+	line-height:1.6em;
+}
+
+p.more, .content-post-list .read-more{
+	text-align:right;
+	text-transform:uppercase;
+	letter-spacing:.5px;
+	font-size:12px;
+}
+
+a, a:link. a:visited, a:active{
+	outline:none;
+}
+
+.clear-me{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+.rgba select, .rgba textarea, .rgba input[type="text"], .rgba input[type="password"], .rgba input[type="file"], .rgba #content div.padder form textarea{
+	border:1px solid #e0e0e0 !important;
+	padding:6px 8px;
+}
+
+#Middle .widgetTitle, #Bottom .widgetTitle, .sectionTitle{
+	font-weight:normal;
+	font-size:20px;
+	border:0px;
+}
+
+.gingham{
+	background:url('http://thebloggerhood.com/wp-content/themes/bloggerhood/images/gingham-pattern.gif');
+}
+
+.gingham img{
+	background-color:#FFFFFF;
+	padding:0px 25px;
+	display:block;
+}
+
+.orangestripes{
+	background: url("http://thebloggerhood.com/wp-content/themes/bloggerhood/images/blue-stripe-bg3.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
